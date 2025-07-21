@@ -5,10 +5,6 @@ import { FaShoppingCart } from "react-icons/fa";
 import { LuTicketPercent } from "react-icons/lu";
 
 export default function Index() {
-  const [selectedFilter, setSelectedFilter] = useState(null);
-
-  const filters = ["Categoria", "Cor", "Tamanho", "Preço", "Mais"];
-
   return (
     <View>
       <View className="flex flex-row justify-between items-center px-4 py-4 bg-white">
