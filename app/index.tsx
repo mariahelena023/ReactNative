@@ -33,15 +33,15 @@ export default function Index() {
       </View>
 
       <View className="flex flex-row flex-wrap justify-around px-6 py-6">
-        <View className="w-[30%] bg-white rounded-lg shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
-          <Image className="w-full h-48 rounded-t-lg" resizeMode="cover"/>
+        <View className="w-[30%] bg-white rounded-lg overflow-hidden shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
+          <Image className="w-full h-48 rounded-t-lg" resizeMode="cover" source={require('../assets/images/camiseta.png')}/>
           <View className="p-3 bg-slate-50">
             <Text className="font-semibold text-lg">Nome da Peça</Text>
             <Text className="text-[#db2cbe] font-bold">R$420</Text>
           </View>
         </View>
 
-        <View className="w-[30%] bg-white rounded-lg shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
+        <View className="w-[30%] bg-white rounded-lg overflow-hidden shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
           <Image className="w-full h-48 rounded-t-lg" resizeMode="cover"/>
           <View className="p-3 bg-slate-50">
             <Text className="font-semibold text-lg">Nome da Peça</Text>
@@ -49,7 +49,7 @@ export default function Index() {
           </View>
         </View>
 
-        <View className="w-[30%] bg-white rounded-lg shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
+        <View className="w-[30%] bg-white rounded-lg overflow-hidden shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
           <Image className="w-full h-48 rounded-t-lg" resizeMode="cover"/>
           <View className="p-3 bg-slate-50">
             <Text className="font-semibold text-lg">Nome da Peça</Text>
@@ -57,7 +57,7 @@ export default function Index() {
           </View>
         </View>
 
-        <View className="w-[30%] bg-white rounded-lg shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
+        <View className="w-[30%] bg-white rounded-lg overflow-hidden shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
           <Image className="w-full h-48 rounded-t-lg" resizeMode="cover"/>
           <View className="p-3 bg-slate-50">
             <Text className="font-semibold text-lg">Nome da Peça</Text>
@@ -65,7 +65,7 @@ export default function Index() {
           </View>
         </View>
 
-        <View className="w-[30%] bg-white rounded-lg shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
+        <View className="w-[30%] bg-white rounded-lg overflow-hidden shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
           <Image className="w-full h-48 rounded-t-lg" resizeMode="cover"/>
           <View className="p-3 bg-slate-50">
             <Text className="font-semibold text-lg">Nome da Peça</Text>
@@ -73,7 +73,7 @@ export default function Index() {
           </View>
         </View>
 
-        <View className="w-[30%] bg-white rounded-lg shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
+        <View className="w-[30%] bg-white rounded-lg overflow-hidden shadow mb-6 cursor-pointer transform transition duration-300 hover:scale-105">
           <Image className="w-full h-48 rounded-t-lg" resizeMode="cover"
           />
           <View className="p-3 bg-slate-50">
